@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">AndroidDevelopmentCourses</string>
+    <string name="contactlist_number">+79501771104</string>
+    <string name="contactlist_name">Roman Saburov</string>
+    <string name="contactlist_image">some_image</string>
+    <string name="contactName">Saburov Roman</string>
+    <string name="contactNumber">+79501771105</string>
+    <string name="imageDescription">user\'s avatar</string>
+    <string name="contactNumber2">+79225159618</string>
+    <string name="contactEmail">roma.saburov.01@mail.ru</string>
+    <string name="contactEmail2">saburov.01@gmail.ru</string>
+    <string name="contactDescription">Описание контакта: что-то сюда можно записать, но мне не хотелось тратить на это время, дабы придумать что-либо замысловатое, поэтому пусть будет этот текст</string>
 </resources>
