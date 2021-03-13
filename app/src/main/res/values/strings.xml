@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">AndroidDevelopmentCourses</string>
+    <!-- item_contact main information about contact-->
+    <string name="contact_name">Saburov Roman</string>
+    <string name="contact_number">+79501771105</string>
+    <string name="contact_imageDescription">user\'s avatar</string>
+    <string name="contact_email">roma.saburov.01@mail.ru</string>
+
+    <!-- fragment_contact_details information about contact with additions-->
+    <string name="contact_details_name">@string/contact_name</string>
+    <string name="contact_details_number">@string/contact_number</string>
+    <string name="contact_details_imageDescription">@string/contact_imageDescription</string>
+    <string name="contact_details_email">@string/contact_email</string>
+    <string name="contact_details_second_number">+79225159618</string>
+    <string name="contact_details_second_emails">saburov.01@gmail.ru</string>
+    <string name="contact_details_description">Описание контакта: что-то сюда можно записать, но мне не хотелось тратить на это время, дабы придумать что-либо замысловатое, поэтому пусть будет этот текст</string>
+    <string name="contact_details_toolbar_title">Детали контакта</string>
+
+    <!-- fragment_contact_list strings -->
+    <string name="contact_list_toolbar_title">Список контактов</string>
 </resources>

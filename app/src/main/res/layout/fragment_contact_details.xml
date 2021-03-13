@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contact_details_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="com.saburovroman.adc.ContactListFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/contact_details_toolbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:title="@string/contact_details_toolbar_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/contact_details_image"
+        android:layout_width="@dimen/image_size"
+        android:layout_height="@dimen/image_size"
+        android:layout_marginStart="@dimen/margin_offset"
+        android:layout_marginTop="@dimen/margin_offset"
+        android:layout_marginBottom="@dimen/margin_offset"
+        android:contentDescription="@string/contact_details_imageDescription"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contact_details_toolbar"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/avatar" />
+
+    <TextView
+        android:id="@+id/contact_name"
+        style="@style/ContactDetailsNameInformation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_offset"
+        android:layout_marginTop="@dimen/margin_offset"
+        android:layout_marginEnd="@dimen/margin_offset"
+        android:text="@string/contact_details_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/contact_details_image"
+        app:layout_constraintTop_toBottomOf="@+id/contact_details_toolbar" />
+
+    <TextView
+        style="@style/ContactMainInformationStyle"
+        android:id="@+id/contact_details_number"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_offset"
+        android:layout_marginTop="@dimen/margin_offset"
+        android:layout_marginEnd="@dimen/margin_offset"
+        android:text="@string/contact_number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contact_details_image" />
+
+    <TextView
+        style="@style/ContactMainInformationStyle"
+        android:id="@+id/contact_details_second_number"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_offset"
+        android:layout_marginEnd="@dimen/margin_offset"
+        android:layout_marginBottom="@dimen/margin_offset"
+        android:text="@string/contact_details_second_number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contact_details_number" />
+
+    <TextView
+        style="@style/ContactMainInformationStyle"
+        android:id="@+id/contact_details_email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_offset"
+        android:layout_marginEnd="@dimen/margin_offset"
+        android:layout_marginBottom="@dimen/margin_offset"
+        android:layout_marginTop="@dimen/margin_offset"
+        android:text="@string/contact_email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contact_details_second_number" />
+
+    <TextView
+        style="@style/ContactMainInformationStyle"
+        android:id="@+id/contact_details_second_email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_offset"
+        android:layout_marginEnd="@dimen/margin_offset"
+        android:text="@string/contact_details_second_emails"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contact_details_email" />
+
+    <TextView
+        android:id="@+id/contact_description"
+        style="@style/ContactDescriptionStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_offset"
+        android:layout_marginTop="@dimen/margin_offset"
+        android:layout_marginEnd="@dimen/margin_offset"
+        android:layout_marginBottom="@dimen/margin_offset"
+        android:text="@string/contact_details_description"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contact_details_second_email"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
