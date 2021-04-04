@@ -28,8 +28,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/contact_details_toolbar"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/avatar" />
+        app:layout_constraintVertical_bias="0.0"/>
 
     <TextView
         android:id="@+id/contact_name"
@@ -39,7 +38,6 @@
         android:layout_marginStart="@dimen/margin_offset"
         android:layout_marginTop="@dimen/margin_offset"
         android:layout_marginEnd="@dimen/margin_offset"
-        android:text="@string/contact_details_name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/contact_details_image"
@@ -53,7 +51,6 @@
         android:layout_marginStart="@dimen/margin_offset"
         android:layout_marginTop="@dimen/margin_offset"
         android:layout_marginEnd="@dimen/margin_offset"
-        android:text="@string/contact_number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -67,7 +64,6 @@
         android:layout_marginStart="@dimen/margin_offset"
         android:layout_marginEnd="@dimen/margin_offset"
         android:layout_marginBottom="@dimen/margin_offset"
-        android:text="@string/contact_details_second_number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -82,7 +78,6 @@
         android:layout_marginEnd="@dimen/margin_offset"
         android:layout_marginBottom="@dimen/margin_offset"
         android:layout_marginTop="@dimen/margin_offset"
-        android:text="@string/contact_email"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -95,7 +90,6 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/margin_offset"
         android:layout_marginEnd="@dimen/margin_offset"
-        android:text="@string/contact_details_second_emails"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -110,7 +104,6 @@
         android:layout_marginTop="@dimen/margin_offset"
         android:layout_marginEnd="@dimen/margin_offset"
         android:layout_marginBottom="@dimen/margin_offset"
-        android:text="@string/contact_details_description"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
